@@ -5,7 +5,7 @@ import { SecondComponent } from './components/second/second.component';
 import { ThirdComponent } from './components/third/third.component';
 
 @NgModule({
-  declarations: [FirstComponent, ThirdComponent, SecondComponent ],
+  declarations: [FirstComponent, ThirdComponent, SecondComponent, ],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [FirstComponent]
