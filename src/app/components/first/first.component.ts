@@ -9,9 +9,16 @@ export class FirstComponent implements OnInit {
 
   public title = 'pavan';
 
-  constructor() { }
+  constructor() {
+    console.log('constructor code running')
+   }
 
   ngOnInit() {
+
+  }
+
+  changeTitle(userTypedValue){
+    this.title = userTypedValue;
   }
 
 }

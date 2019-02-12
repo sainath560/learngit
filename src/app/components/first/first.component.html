@@ -1,9 +1,20 @@
 <p>
-  First component
+  Welcome {{title}}
 </p>
 
+
+<input type="text" [(ngModel)]="userTypedValue">
+
+<input type="button" name="click" value="changetitle" (click)="changeTitle(userTypedValue)">
+
+
+
+
+
+
+<app-second></app-second>
 <app-third></app-third>
-  <app-second></app-second>
+
 
 
 
